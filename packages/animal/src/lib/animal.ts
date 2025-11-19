@@ -12,6 +12,7 @@ const animals: Animal[] = [
   { name: 'cow', sound: 'moo' },
   { name: 'dog', sound: 'woof' },
   { name: 'pig', sound: 'oink' },
+  { name: 'cat', sound: 'meow' },
 ];
 
 export function getRandomAnimal(): Animal {
