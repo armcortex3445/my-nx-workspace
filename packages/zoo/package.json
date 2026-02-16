@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "tslib": "^2.3.0",
-    "@ts-demo/animal": "*"
+    "@ts-demo/animal": "*",
+    "@ts-demo/util": "*"
   }
 }
