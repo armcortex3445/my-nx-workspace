@@ -1,6 +1,8 @@
 import { getRandomAnimal } from '@ts-demo/animal';
+import { formatMessage } from '@ts-demo/util';
 
 export function zoo(): string {
   const result = getRandomAnimal();
-  return `${result.name} says ${result.sound}!`;
+  const message = `${result.name} says ${result.sound}!`;
+  return formatMessage('ZOO', message);
 }
